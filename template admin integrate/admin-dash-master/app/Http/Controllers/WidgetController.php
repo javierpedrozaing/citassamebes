@@ -18,7 +18,7 @@ class WidgetController extends Controller
     {
 
         $this->middleware('auth', ['except' => 'index'] );
-        $this->middleware('admin', ['except' => ['index', 'show']] );
+       // $this->middleware('admin', ['except' => ['index', 'show', 'create']] );
 
     }
 

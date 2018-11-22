@@ -19,7 +19,7 @@ class ProfileController extends Controller
     {
 
         $this->middleware('auth');
-        $this->middleware('admin',['only'=> 'index']);
+        //$this->middleware('admin',['only'=> 'index']);
 
     }
 
